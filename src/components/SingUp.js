@@ -202,7 +202,7 @@ const SignUp = () => {
                     SIGN UP
                 </button>
                 <div className='footer signUpFooter'>
-                    <Link to={'/signIn'}>Already have an account? Sign in</Link>
+                    <Link to={'/26-homework/signIn'}>Already have an account? Sign in</Link>
                 </div>
                 <div className='copyRight'>CopyRight © Your Website 2020.</div>
             </div>

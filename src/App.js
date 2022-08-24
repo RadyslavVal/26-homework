@@ -11,18 +11,18 @@ export default class App extends Component {
       <Router>
         <div className="App">
           <Switch>
-            <Route path={`/`} exact>
+            <Route path={`/26-homework/`} exact>
               <div className='login'>
                 <h1>Welcome</h1>
-                <Link to={'/signIn'}>
+                <Link to={'/26-homework/signIn'}>
                   <button type="submit" className='loginBtn'>LOGIN</button>
                 </Link>
               </div>
             </Route>
-            <Route path={`/signIn`} >
+            <Route path={`/26-homework/signIn`} >
               <SignIn />
             </Route>
-            <Route path={`/signUp`} >
+            <Route path={`/26-homework/signUp`} >
               <SignUp />
             </Route>
           </Switch>

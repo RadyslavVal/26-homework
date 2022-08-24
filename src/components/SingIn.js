@@ -107,8 +107,8 @@ const SignIn = () => {
                 </div>
                 <button type="submit" className='signBtn' onClick={onSubmitLogin}>SIGN IN</button>
                 <div className='footer signInFooter'>
-                    <Link to={"/notActiveLink"}>Forgot  password? </Link>
-                    <Link to={'/signUp'}>Don't have an account? Sign Up</Link>
+                    <Link to={"/26-homework/notActiveLink"}>Forgot  password? </Link>
+                    <Link to={'/26-homework/signUp'}>Don't have an account? Sign Up</Link>
                 </div>
                 <div className='copyRight'>CopyRight © Your Website 2020.</div>
             </div>
