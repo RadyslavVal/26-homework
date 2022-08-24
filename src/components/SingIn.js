@@ -105,7 +105,7 @@ const SignIn = () => {
                         checked={checked} />
                     <div>Remember me</div>
                 </div>
-                <button type="submit" className='signBtn' onClick={onSubmitLogin}>SIGN IN</button>
+                <button type="button" className='signBtn' onClick={onSubmitLogin}>SIGN IN</button>
                 <div className='footer signInFooter'>
                     <Link to={"/26-homework/notActiveLink"}>Forgot  password? </Link>
                     <Link to={'/26-homework/signUp'}>Don't have an account? Sign Up</Link>

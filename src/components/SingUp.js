@@ -197,7 +197,7 @@ const SignUp = () => {
                     <input type="checkbox" />
                     <div>I want to receive inspiration, marketing promotions and updates via email.</div>
                 </div>
-                <button type="submit" className='signBtn'
+                <button type="button" className='signBtn'
                     onClick={onSubmitRegistration}>
                     SIGN UP
                 </button>

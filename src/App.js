@@ -15,7 +15,7 @@ export default class App extends Component {
               <div className='login'>
                 <h1>Welcome</h1>
                 <Link to={'/26-homework/signIn'}>
-                  <button type="submit" className='loginBtn'>LOGIN</button>
+                  <button type="button" className='loginBtn'>LOGIN</button>
                 </Link>
               </div>
             </Route>
